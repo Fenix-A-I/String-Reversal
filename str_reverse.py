@@ -3,9 +3,6 @@ Author: Alexandr Iapara
 Description: This program defines a function that reverses a string.
 '''
 
-import string
-
-
 def reverse(string):
     """Return the reversed version of the input string.
 
