@@ -3,6 +3,9 @@ Author: Alexandr Iapara
 Description: This program defines a function that reverses a string.
 '''
 
+import string
+
+
 def reverse(string):
     """Return the reversed version of the input string.
 
@@ -21,7 +24,12 @@ def reverse(string):
         str = i + str
     return str
   
-string = "This is a string to be reversed."
-print(f"\nOriginal: {string}")
-print(f"Reversed: {reverse(string)}\n")
+def main():
+    """Main function to demonstrate string reversal."""
+    
+    string = "This is a string to be reversed."
+    print(f"\nOriginal: {string}")
+    print(f"Reversed: {reverse(string)}\n")
 
+if __name__ == "__main__":
+    main()
