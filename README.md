@@ -10,11 +10,11 @@ Python needs to be installed to run the following program.
 
 ## Usage
 ```
-python cement_calc.py
+python str_reverse.py
 ```
 or 
 ```
-python3 cement_calc.py
+python3 str_reverse.py
 ```
 
 ## Programming Languages
